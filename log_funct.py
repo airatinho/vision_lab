@@ -30,4 +30,4 @@ def calc_3(wait_time):
 if __name__ == '__main__':
     calc_1() #Вариант №1
     print(timeit.timeit(calc_2,number=N)) #Вариант №2
-    calc_3(wait_time) #Вариант №2 - создастся текстовый файл logs в папке logs со временем
+    calc_3(wait_time) #Вариант №3 - создастся текстовый файл logs в папке logs со временем
